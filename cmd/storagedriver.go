@@ -28,6 +28,7 @@ import (
 	_ "github.com/google/cadvisor/cmd/internal/storage/redis"
 	_ "github.com/google/cadvisor/cmd/internal/storage/statsd"
 	_ "github.com/google/cadvisor/cmd/internal/storage/stdout"
+	_ "github.com/google/cadvisor/cmd/internal/storage/wavefront"
 	"github.com/google/cadvisor/storage"
 
 	"k8s.io/klog/v2"
